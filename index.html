@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmaculate Anyango Portfolio</title>
+    <link rel="stylesheet" href="./stlyes.css">
+</head>
+<body>
+    <header>
+        <h1>Emmaculate Anyango</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#recipe1">Spaghetti Carbonara</a></li>
+                <li><a href="#recipe2">Chocolate Lava Cake</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="./images/chula.jpg" alt="Profile picture of Benjamine Major">
+            </div>
+            <div class="hero-text">
+                <h2>Welcome to My Portfolio</h2>
+                <div class="intro">
+                    <p>Hi, I’m <span>Emmaculate Anyango</span><br>A web developer passionate about creating beautiful and functional websites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <style>
+            .skills ul {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+                list-style: none;
+                margin-top: 1rem;
+            }
+
+            .skill-card {
+                width: 22%;
+                background-color: #f1f1f1;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .skill-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            }
+
+            .skill-card h3 {
+                font-size: 1.2rem;
+                margin-bottom: 0.5rem;
+                color: #007bff;
+            }
+
+            .skill-card p {
+                font-size: 0.9rem;
+                color: #555;
+            }
+        </style>
+        <img src="./images/chula.jpg" alt="Profile picture of emmaculate-anyango">
+        <div>
+            <h2>About Me</h2>
+            <p>I’m a student learning web development, excited to build creative solutions.</p>
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li class="skill-card">
+                        <h3>HTML</h3>
+                        <p>Proficient in creating structured, semantic web content for accessibility and SEO.</p>
+                    </li>
+                    <li class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Skilled in styling responsive layouts and adding animations for engaging user interfaces.</p>
+                    </li>
+                    <li class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Experienced in adding interactivity and dynamic features to enhance web functionality.</p>
+                    </li>
+                    <li class="skill-card">
+                        <h3>Git</h3>
+                        <p>Adept at version control for collaborative coding and project management.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="recipe1" class="recipe">
+        <h2>Spaghetti Carbonara</h2>
+        <img src="./images/istockphoto-943785646-1024x1024.jpg" alt="Photo of Spaghetti Carbonara">
+        <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+                <li>200g spaghetti</li>
+                <li>100g pancetta</li>
+                <li>2 eggs</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h3>Instructions</h3>
+            <ol>
+                <li>Boil water and cook spaghetti.</li>
+                <li>Cook pancetta in a pan.</li>
+                <li>Mix eggs and cheese, combine with pasta.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="recipe2" class="recipe">
+        <h2>Chocolate Lava Cake</h2>
+        <img src="./images/istockphoto-2030549106-1024x1024.jpg" alt="Photo of Chocolate Lava Cake">
+        <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+                <li>100g dark chocolate</li>
+                <li>100g butter</li>
+                <li>2 eggs</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h3>Instructions</h3>
+            <ol>
+                <li>Melt chocolate and butter.</li>
+                <li>Whisk eggs and sugar, then combine with chocolate mixture.</li>
+                <li>Bake at 200°C for 10-12 minutes.</li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <p><a href="https://github.com/emmaculate-anyango">GitHub</a> | <a href="https://linkedin.com/in/benjamine-major">LinkedIn</a></p>
+        <p>© 2025 emmaculate-anyango</p>
+    </footer>
+</body>
+</html>
